@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@500&display=swap');
 
 body{
   width:auto;
@@ -6,8 +10,9 @@ body{
 
 
 
-   font-family: var(--font-family);
-   font-size: var(--font-size-md);
+   font-family: "PT Sans",sans-serif;
+
+   font-size: 16px;
    line-height: var(--line-height);
    color: var(--font-color);
    -webkit-font-smoothing: antialiased;
@@ -110,7 +115,10 @@ h1 {
    padding-left: 140px;
  }
 
-
+.container1 .row .column1 h1{
+   font-weight: bold;
+   font-family: "Ubuntu",sans-serif;
+}
 .container2{
  display: flex;
  margin-top: 60px;
@@ -124,6 +132,20 @@ h1 {
 
  .c2_div1{
    width:25%;
+ }
+
+ .c2_div1 h4{
+   font-weight: bold;
+   font-family:  "Ubuntu",sans-serif;
+ }
+
+ .c2_div1 h2{
+   font-weight: bold;
+   font-size: 40px;
+   margin-bottom: -14px;
+    line-height: 1.2;
+    font-family:  "Ubuntu",sans-serif;
+   color: #EE3423;
  }
 
 
@@ -183,10 +205,24 @@ h1 {
    margin-top: 15px;
  }
 
+ .c3_column1 h2{
+   font-family:  "Ubuntu",sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    }
+
+
 /* ==============================================================================container4=========================================================================== */
 
 .container4 h1{
  text-align: center;
+ font-size: 28px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family:  "Ubuntu",sans-serif;
+    margin-bottom: 42px;
 }
 
 
@@ -201,6 +237,7 @@ h1 {
 }
 .container4_back{
  background-color: #FFFEF2;
+ /* margin-top: 14px; */
 }
 
 .c4_card{
@@ -219,11 +256,29 @@ h1 {
 
 }
 
+.c4_card h4{
+   font-size: 16px;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-family:  "Ubuntu",sans-serif;    
+}
 
 
 .allcards{
  display: inline-flex;
 }
+
+.allcards .column1 h4{
+   width: 300px;
+    /* margin-right: 50px; */
+    font-size: 24px;
+    color: #000;
+   
+   margin-top: 67px;
+   font-weight: bold;
+   font-family:  "Ubuntu",sans-serif;
+}
+
 .container4 .column1{
  width: 300px;
  /* background-color: #fbdc00; */
@@ -238,6 +293,11 @@ h1 {
 
 .container5 h1{
  text-align: center;
+ font-size: 28px;
+ line-height: 1.2;
+ font-weight: bold;
+ font-family:  "Ubuntu",sans-serif;
+
 }
 
 
@@ -269,6 +329,14 @@ h1 {
 
 }
 
+.c6_box h3{
+   font-size: 28px;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    margin: -7px;
+}
+
 .container6 {
  background-color: #fbdc00;
  margin-top: 40px;
@@ -298,17 +366,32 @@ h1 {
 
 /* =========================================================================container7================================================= */
 
-.container7 h1{
+.container7 h3{
+   font-size: 28px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: "Ubuntu",sans-serif;
  text-align: center;
+}
+
+.container7 h4{
+   margin-top: 1px;
 }
 
 #col1{
  color: #EE3423;
+ font-weight: 600;
+}
+
+#col22{
+   font-size: 20px;
+   font-weight: 600;
+
 }
 
 .container7 .c7_row1{
  text-align: center;
- margin-left: 500px;
+ margin-left: 450px;
  width: 480px;
  height: 40px;
 }
@@ -353,7 +436,7 @@ h1 {
  width: 560px;
  height: 320px;
  margin-top: -120px;
- margin-left: -151px;
+ margin-left: 0px;
 }
 .container7 .row .column2{
    display: flex;
@@ -420,6 +503,7 @@ align-items: center;
  text-align: center;
  font-size: 28px;
    line-height: 1.2;
+   font-family: "Ubuntu",sans-serif;
    margin-top: -5px;
 }
 .c8images{
@@ -468,7 +552,7 @@ align-items: center;
    margin-left: -552px;
 }
 .imgc9-10 img{
- width: 1466px;
+ width: 100%;
  margin-top: 100px;;
 }
 
@@ -489,6 +573,13 @@ align-items: center;
  padding-right: 16px;
  padding-bottom: 4px;
  padding-left: 16px;
+}
+
+.c9box h2{
+   font-size: 40px;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
 }
 
 
@@ -562,6 +653,11 @@ align-items: center;
 
 }
 
+.to1{
+   display: inline-flex;
+   text-align: center;
+}
+
 .container12 .row{
    margin-right: -10px;
  margin-left: -10px;
@@ -577,9 +673,13 @@ align-items: center;
 }
 
 #iddd1{
- min-width: 72px;
- height: 30px;
- border-radius: 5px;
+   border: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 250px;
+    height: 40px;
+    margin-left: -67px;
+
 }
 
 #btn{
@@ -602,15 +702,15 @@ align-items: center;
    padding-left: 16px;
 }
 #btn2{
- /* margin-left: 600px; */
-   color:rgb(255, 255, 255);
+ margin-left: -5px;
+   /* color:rgb(255, 255, 255);
    background-color: red;
    border:none;
-   font-family: var(--font-family);
+   font-family: var(--font-family); */
    /* display:flex;
    align-items: center;
    justify-content: center; */
-   line-height: 1.2;
+   /* line-height: 1.2;
    border-radius: 5px;
    min-width: 72px;
    height: 36px;
@@ -618,7 +718,16 @@ align-items: center;
    padding-top: 4px;
    padding-right: 16px;
    padding-bottom: 4px;
-   padding-left: 16px;
+   padding-left: 16px; */
+   width: 120px!important;
+    height: 40px!important;
+    text-align: center;
+    text-decoration: none;
+    background: #ee3425;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:0px;
 }
 
 .container12 .card1{
@@ -696,19 +805,26 @@ align-items: center;
 }
 
 #imgid{
- margin-left: 250px;
+ margin-left: 320px;
  margin-top: 124px;
 }
 
 .container13 .column33{
+   font-size: 28px;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
  text-align: center;
  margin-top: -202px;
  margin-left: 138px;
 }
-
+.container13 .column33 h6{
+   font-weight:lighter;
+}
 .container13 .row2{
  display: flex;
- margin-top: 169px;
+ margin-top: 73px;
+ padding: 27px;
  justify-content: space-between;
 }
 
@@ -724,4 +840,15 @@ align-items: center;
 .container15{
  background-color: rgb(235,190,0);
  height: 49px;
+}
+#footer{
+   font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#footer1{
+   font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
